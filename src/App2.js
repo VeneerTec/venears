@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';\
-//test
+import './App.css';
 
 
 class App extends React.Component {
