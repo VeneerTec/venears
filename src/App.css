@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-p1 {color: red;}
+.p1 {color: red;}
 
 h1 {
 	font-weight: bold;
@@ -109,9 +109,11 @@ table {
   text-decoration: none;
   background: rgb(240, 151, 217);
   border: solid black 2px;
+  border-style: solid;
 	text-align: center;
 	text-decoration: none;
 	display: block;
   font-size: 15px;
   margin: 10px auto;
+  padding: 5px;
 }
