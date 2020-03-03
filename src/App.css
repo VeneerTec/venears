@@ -1,38 +1,117 @@
-.App {
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: bold;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+  white-space: pre-line;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p1 {color: red;}
+
+h1 {
+	font-weight: bold;
+	font-size: 120%;
+	color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.important {
+	width: 25%;
+  	text-align: center;
+  	display: block;
+  	margin: 5px auto;
+	display: block;
+	border: 3px red solid;
+	padding: 8px;
+	background: #ffd4d1
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+	width: 100%;
+	background: #863493;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-weight: bolder;
+	text-align: center;
+}
+body, html {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: rgb(255, 163, 247);
+	margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.langButton {
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	width: 130px;
+	background-color: #ffffff;
+	border: 1px black solid;
+  color: black;
+	padding: 2px 2px;
+  text-align: center;	
+	font-size: 16px;
+	cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+	width: 35%;
+  background-color: #863493;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+  font-size: 20px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.wrapper {
+	display: block;
+  text-align: center;
+	word-wrap: break-word;
+	background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+	text-decoration: none;
+  font-size: 12px;
+	margin: 10px auto;
+}
+
+.textbox {
+  display: block;
+  background-color: #b8b8b8 ;
+}
+
+footer {
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	background: #863493;
+	font-weight: bolder;
+	color: #ffffff;
+	height: 60px;
+}
+table {
+  width: 35%;
+  text-decoration: none;
+  background: rgb(240, 151, 217);
+  border: solid black 2px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+  font-size: 15px;
+  margin: 10px auto;
 }
