@@ -1,18 +1,37 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div>
+
+class App extends React.Component {
+  spanish() {
+    var x = document.getElementById("langButton").value
+    console.log("Success!")
+    x.innerHTML = "Success!"
+  }
+  render () {
+    return (
+      <div>
       <body>
         <div class="header">
           <div class="langSelect">
-            <input id="langButton" class="langButton" type="button" onclick="langBtn()" value="Espa&ntilde;ol"></input>
+            <input id="langButton" class="langButton" type="button" onClick={this.spanish} value="Espa&ntilde;ol"></input>
           </div>
           <h1>Veneer Tech Employer's Accident Reporting System</h1>
-          <p1>BETA VERSION</p1>
+          <p class="p1">BETA VERSION</p>
         </div>
-        <form method="post" action="https://airform.io/ledinger@veneertech.com">
+        <table class="devTable">
+          <tbody>
+            <tr>
+              <td>DEV</td>
+              <td>TOOLS</td>
+            </tr>
+            <tr>
+              <td>Where to send email</td>
+              <td><input class="wrapper" type="text" name="Email"></input></td>
+            </tr>
+          </tbody>
+        </table>
+        <form method="post" action="https://airform.io/{email}">
           <table class="table">
             <tbody>
               <tr>
@@ -38,8 +57,16 @@ function App() {
         <p>&copy; 2020 Möhring Group &emsp;</p>
       </footer>
     </div>
-  );
+    )
+  }
 }
 
-// https://stackoverflow.com/questions/37295377/how-to-navigate-from-one-page-to-another-in-react-js
+class input extends React.Component {
+  render () {
+    return (
+      <input id="langButton" class="langButton" type="button" onClick={this.spanish} value="Espa&ntilde;ol"></input>
+    )
+  }
+}
+
 export default App;
