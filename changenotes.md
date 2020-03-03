@@ -9,7 +9,4 @@ This application was made to facilitate accident reporting in Veneer Technologie
 ~going to add long form as a seperate file so that the PI inquiry can pass QC before commiting.
 
 ### b153003032020
-+added feature to enter an email to send to rather than changing it programatically. Default value:
-```javascript
-
-```
++added feature to enter an email to send to rather than changing it programatically. Default value: https://airflow.io/ledinger@veneertech.com
