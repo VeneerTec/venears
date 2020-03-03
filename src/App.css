@@ -117,3 +117,7 @@ table {
   margin: 10px auto;
   padding: 5px;
 }
+th {
+	font-size: 17px;
+	font-weight: bold;
+}
