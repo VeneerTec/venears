@@ -47,11 +47,11 @@ class App extends React.Component {
                             </tr>
                             <tr>
                                 <td>Date of Injury</td>
-                                <td><input class="wrapper" type="text" name="dateOfInjury" /></td>
+                                <td><input class="wrapper" type="date" name="dateOfInjury" /></td>
                             </tr>
                             <tr>
                                 <td>Time of Injury</td>
-                                <td><input class="wrapper" type="text" name="timeOfInjury" /></td>
+                                <td><input class="wrapper" type="time" name="timeOfInjury" /></td>
                             </tr>
                             <tr>
                                 <td>Department Location</td>
