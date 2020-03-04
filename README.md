@@ -12,7 +12,7 @@ This project has a solid foundation based off of Facebooks Open source project R
 4. Node.js
 5. Airflow <- Subject to change.
 
-#### Built with React and with love
+### Built with React and with love
 
 SIKE!
 React took too long to learn, but we are getting somewhere.
