@@ -8,8 +8,8 @@
 	vertical-align: baseline;
 	background: transparent;
 	font-family: Arial, Helvetica, sans-serif;
-  white-space: pre-line;
-  text-align: center;
+  	white-space: pre-line;
+  	text-align: center;
 }
 
 .p1 {color: red;}
@@ -45,7 +45,7 @@ body, html {
 	flex-direction: column;
 	width: 100%;
 	overflow-x: hidden;
-	background-color: rgb(255, 163, 247);
+	background-color: white;
 	margin: 0;
 }
 
@@ -56,42 +56,37 @@ body, html {
 	width: 130px;
 	background-color: #ffffff;
 	border: 1px black solid;
-  color: black;
+  	color: black;
 	padding: 2px 2px;
-  text-align: center;	
+  	text-align: center;	
 	font-size: 16px;
 	cursor: pointer;
 }
 
 .button {
 	width: 35%;
-  background-color: #863493;
+ 	background-color: #863493;
 	border: none;
 	color: white;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: block;
-  font-size: 20px;
-  margin: 10px auto;
-  cursor: pointer;
+  	font-size: 20px;
+ 	margin: 10px auto;
+  	cursor: pointer;
 }
 .wrapper {
+	width: 100%;
 	display: block;
-  text-align: center;
 	word-wrap: break-word;
 	background-color: white;
-  border: none;
-  color: black;
-  padding: 15px 32px;
+ 	border: none;
+  	color: black;
+  	padding: 15px 32px;
 	text-decoration: none;
-  font-size: 12px;
+  	font-size: 12px;
 	margin: 10px auto;
-}
-
-.textbox {
-  display: block;
-  background-color: #b8b8b8 ;
 }
 
 footer {
@@ -105,18 +100,19 @@ footer {
 	height: 60px;
 }
 table {
-  width: 35%;
-  text-decoration: none;
-  background: rgb(240, 151, 217);
-  border: solid black 2px;
-  border-style: solid;
-	text-align: center;
+ 	width: 75%;
+ 	text-decoration: none;
+ 	background: rgb(240, 151, 217);
+	border: solid black 2px;
+ 	border-style: solid;
+	text-align: left;
 	text-decoration: none;
 	display: block;
-  font-size: 15px;
-  margin: 10px auto;
-  padding: 5px;
+ 	font-size: 15px;
+ 	margin: 10px auto;
+ 	padding: 5px;
 }
+
 th {
 	font-size: 17px;
 	font-weight: bold;
