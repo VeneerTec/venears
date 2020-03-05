@@ -1,4 +1,4 @@
-git pullimport React from 'react';
+import React from 'react';
 import './App.css';
 
 
@@ -25,70 +25,69 @@ class App extends React.Component {
                 <table class="devTable">
                     <tbody>
                         <tr>
-                            <td>DEV</td>
-                            <td>TOOLS</td>
+                            <td>DEVELOPER TOOLS</td>
                         </tr>
                         <tr>
-                            <td>Where to send email</td>
-                            <td>
-                                <select class="wrapper" type="text" name="sDepartmentLocation" id="inputEmail" >
-                                    <option value="lnickson@veneertech.com">lnickson@veneertech.com</option>
-                                    <option value="ledinger@veneertech.com">ledinger@veneertech.com</option>
-                                </select></td>
+                            <select class="wrapper" type="text" name="Email" id="inputEmail" >
+                                <option value="ledinger@veneertech.com">ledinger@veneertech.com</option>
+                                <option value="lnickson@veneertech.com">lnickson@veneertech.com</option>
+                            </select>
                         </tr>
                     </tbody>
+
                 </table>
                 <form method="post" id="formPost">
                     <table class="table">
                         <tbody>
                             <tr>
-                                <th>Supervisor Accident</th>
+                                <th>Employee's Accident</th>
                                 <th>Investigation Report</th>
                             </tr>
                             <tr>
                                 <td>Name of Employee</td>
-                                <td><input class="wrapper" type="text" name="sEmployeeName" /></td>
+                                <td><input class="wrapper" type="text" name="Name of Employee" /></td>
                             </tr>
                             <tr>
+                                <td>Mailing Address</td>
+                                <td><input class="wrapper" type="text" name="eMailingAddress" /></td>
+                            </tr>
+                            <tr>
+                                <td>Number of Children Under 18</td>
+                                <td><input class="wrapper" type="number" name="eNumberOfChildren" /></td>
+                            </tr>
+                            <td>Ethnicity</td>
+                            <td>
+                                <select class="wrapper" type="text" name="eEthnicity" >
+                                    <option value="Black">Black</option>
+                                    <option value="Hispanic">Hispanic</option>
+                                    <option value="White">White</option>
+                                </select>
+                            </td>
+                            <tr>
                                 <td>Date of Injury</td>
-                                <td><input class="wrapper" type="date" name="sDateOfInjury" /></td>
+                                <td><input class="wrapper" type="date" name="eDateOfInjury" /></td>
                             </tr>
                             <tr>
                                 <td>Time of Injury</td>
-                                <td><input class="wrapper" type="time" name="sTimeOfInjury" /></td>
+                                <td><input class="wrapper" type="time" name="eTimeOfInjury" /></td>
                             </tr>
                             <tr>
-                                <td>Department Location</td>
-                                <td>
-                                    <select class="wrapper" type="text" name="sDepartmentLocation" >
-                                        <option value="Edge Banding">Edge Banding</option>
-                                        <option value="Face Grading">Face Grading</option>
-                                        <option value="Floor Grading">Floor Grading</option>
-                                        <option value="Jointing">Jointing</option>
-                                        <option value="Main Office">Main Office</option>
-                                        <option value="Maintenance">Maintenance</option>
-                                        <option value="Production Office">Production Office</option>
-                                        <option value="Sheet Veneer">Sheet Veneer</option>
-                                        <option value="Splicing">Splicing</option>
-                                    </select>
-                                </td>
+                                <td>What part(s) if your body did you injure?</td>
+                                <td><input class="wrapper" type="text" name="eBodyPart" /></td>
                             </tr>
                             <tr>
-                                <td>Machine In Use</td>
-                                <td><input class="wrapper" type="text" name="sMachineInUse" /></td>
+
+                                <td>In your own words, tell what you were doing and what happened at the time of the accident:</td>
+                                <td><textarea name="eOwnWords" input class="wrapper" maxlength="250"></textarea></td>
                             </tr>
-                            <tr>
-                                <td>Eompyee's Occupation</td>
-                                <td><input class="wrapper" type="text" name="sEmployeesOccupation" /></td>
-                            </tr>
-                            <tr>
-                                <td>Was is part of the Employee's regular duties?</td>
-                                <td><input class="wrapper" type="text" name="sPartOfRegularDuties" /></td>
-                            </tr>
-                            <tr>
-                                <td>Employee's description of the accident.</td>
-                                <td><input class="wrapper" type="text" name="employeeDescription" /></td>
-                            </tr>
+                            <td>Were you performing your regular job duties? </td>
+                            <td>
+                                <select class="wrapper" type="text" name="eRegularJobDuties" >
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </td>
+
                             <tr>
                                 <td>Were there witnesses?</td>
                                 <td><input class="wrapper" type="text" name="witnessQuestion" /></td>
