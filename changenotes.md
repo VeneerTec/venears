@@ -11,3 +11,7 @@ This application was made to facilitate accident reporting in Veneer Technologie
 ### b160003032020
 +added feature to enter an email to send to rather than changing it programatically. Default value: https://airflow.io/ledinger@veneertech.com
 +added some of the supervisor long form text boxes (about: 80% complete)
+
+###  b153003042020
++added EmployeeTemplate.js to setup the employees point of view for accident reporting.
+~restyled the website to look better and more apealing

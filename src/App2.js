@@ -30,7 +30,11 @@ class App extends React.Component {
                         </tr>
                         <tr>
                             <td>Where to send email</td>
-                            <td><input class="wrapper" type="text" name="Email" id="inputEmail"></input></td>
+                            <td>
+                                <select class="wrapper" type="text" name="sDepartmentLocation" id="inputEmail" >
+                                    <option value="lnickson@veneertech.com">lnickson@veneertech.com</option>
+                                    <option value="ledinger@veneertech.com">ledinger@veneertech.com</option>
+                                </select></td>
                         </tr>
                     </tbody>
                 </table>
@@ -43,20 +47,20 @@ class App extends React.Component {
                             </tr>
                             <tr>
                                 <td>Name of Employee</td>
-                                <td><input class="wrapper" type="text" name="employeeName" /></td>
+                                <td><input class="wrapper" type="text" name="sEmployeeName" /></td>
                             </tr>
                             <tr>
                                 <td>Date of Injury</td>
-                                <td><input class="wrapper" type="text" name="dateOfInjury" /></td>
+                                <td><input class="wrapper" type="date" name="sDateOfInjury" /></td>
                             </tr>
                             <tr>
                                 <td>Time of Injury</td>
-                                <td><input class="wrapper" type="text" name="timeOfInjury" /></td>
+                                <td><input class="wrapper" type="time" name="sTimeOfInjury" /></td>
                             </tr>
                             <tr>
                                 <td>Department Location</td>
                                 <td>
-                                    <select class="wrapper" type="text" name="departmentLocation" >
+                                    <select class="wrapper" type="text" name="sDepartmentLocation" >
                                         <option value="Edge Banding">Edge Banding</option>
                                         <option value="Face Grading">Face Grading</option>
                                         <option value="Floor Grading">Floor Grading</option>
@@ -71,15 +75,15 @@ class App extends React.Component {
                             </tr>
                             <tr>
                                 <td>Machine In Use</td>
-                                <td><input class="wrapper" type="text" name="machineInUse" /></td>
+                                <td><input class="wrapper" type="text" name="sMachineInUse" /></td>
                             </tr>
                             <tr>
                                 <td>Eompyee's Occupation</td>
-                                <td><input class="wrapper" type="text" name="employeesOccupation" /></td>
+                                <td><input class="wrapper" type="text" name="sEmployeesOccupation" /></td>
                             </tr>
                             <tr>
                                 <td>Was is part of the Employee's regular duties?</td>
-                                <td><input class="wrapper" type="text" name="partOfRegularDuties" /></td>
+                                <td><input class="wrapper" type="text" name="sPartOfRegularDuties" /></td>
                             </tr>
                             <tr>
                                 <td>Employee's description of the accident.</td>

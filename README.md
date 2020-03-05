@@ -11,6 +11,7 @@ This project has a solid foundation based off of Facebooks Open source project R
 3. React-router
 4. Node.js
 5. Airflow <- Subject to change.
+6. mssql (The NPM package)
 
 ### Built with React and with love
 
