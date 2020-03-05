@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import App2 from './App2'
+import EmployeeTemplate from './EmployeeTemplate'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App2 />, document.getElementById('root'));
+ReactDOM.render(<EmployeeTemplate />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
