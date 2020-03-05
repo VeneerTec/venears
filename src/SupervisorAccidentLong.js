@@ -1,4 +1,4 @@
-git pullimport React from 'react';
+import React from 'react';
 import './App.css';
 
 
@@ -78,7 +78,7 @@ class App extends React.Component {
                                 <td><input class="wrapper" type="text" name="sMachineInUse" /></td>
                             </tr>
                             <tr>
-                                <td>Eompyee's Occupation</td>
+                                <td>Employee's Occupation</td>
                                 <td><input class="wrapper" type="text" name="sEmployeesOccupation" /></td>
                             </tr>
                             <tr>
